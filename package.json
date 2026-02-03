@@ -1,0 +1,29 @@
+{
+  "name": "speech-to-text-backend",
+  "version": "1.0.0",
+  "description": "Speech-to-Text backend using Node.js, Express, MongoDB, and an external Speech-to-Text API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "speech-to-text",
+    "express",
+    "mongodb",
+    "mern"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.8.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
