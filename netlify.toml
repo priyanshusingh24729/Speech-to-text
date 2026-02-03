@@ -1,9 +1,11 @@
 [build]
   base = "client"
   command = "npm install && npm run build"
-  publish = "client/dist"
+  publish = "dist"
 
+# Redirect all routes to index.html for SPA routing
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+  force = true
